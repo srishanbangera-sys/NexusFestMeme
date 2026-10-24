@@ -572,7 +572,7 @@
         <div class="s2-right">
           <div class="chat" id="chat" aria-live="polite"></div>
           <div class="cta" id="cta">
-            <button class="btn gold pulse" id="reg">REGISTER FOR NEXUS FEST 2026</button>
+            <button class="btn gold pulse" id="reg">REGISTER FOR STARTUP PITCH</button>
             <div class="foot"><span></span></div>
           </div>
         </div>
@@ -656,12 +656,12 @@
        ═══════════════════════════════════════════════════ */
     var script = [
       ["BRO. YOU REALLY THOUGHT. \u{1F480}", "big", 2200],
-      ["No free attendance. The only thing you got scanned into is Nexus Fest.", "", 1700],
-      ["Your attendance is still at 62% and your future looks already cooked.", "", 2000],
-      ["But lowkey, registering costs ₹0. Your friends laughing at you costs more.", "", 1900],
-      ["Register now, or I'm telling everyone you fell for it. \u{1F608}", "", 1800],
-      ["Okay fine, you registering or nah? \u{1F62D}", "me", 1600]
-    ];
+      ["No free attendance. You just got scanned into Nexus Fest. \u{1F480}", "", 1700],
+      ["Hackathon registrations are closed, but startup pitch registrations are still open.", "", 2000],
+      ["Your attendance is at 62%. Your startup idea has been in your Notes app forever.", "", 1900],
+      ["Registering costs ₹0. Staying a 'someday founder' costs way more. \u{1F608}", "", 1800],
+      ["Okay fine, I'm pitching. Registering now. \u{1F62D}", "me", 1600]
+    ]
 
     function clearAll() {
       timers.forEach(clearTimeout);
@@ -735,6 +735,7 @@
       });
     }
 
+    // TODO: Replace with the actual startup pitch registration URL
     var NEXUS_FEST_URL = 'https://fest.nexusclubs.in';
     document.getElementById('reg').addEventListener('click', function () {
       Analytics.trackButtonClick();

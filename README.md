@@ -2,7 +2,7 @@
 
 > **Scan. Get rickrolled. Get registered.** 😭
 
-A QR-code prank landing page for **Nexus Fest 2026** — a hackathon in Mangalore. Print QR codes around campus labelled _"Scan to claim free attendance"_ and watch the chaos unfold.
+A QR-code prank landing page for **Nexus Fest 2026** — a startup pitch event in Mangalore. Print QR codes around campus labelled _"Scan to claim free attendance"_ and watch the chaos unfold.
 
 ---
 
